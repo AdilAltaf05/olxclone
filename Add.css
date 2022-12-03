@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container1{
+    background-color: blueviolet;
+    font-family: sans-serif;
+    padding-top: 25px;  
+    display: flex;
+    align-items: center;
+}
+
+.mainheading{
+    font: 30px;
+    color: white;
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+
+.container3{
+    margin-top: 50px;
+    margin-left: 150px
+}
+
+.input1{
+    width: 900px;
+}
+
+
+#select{
+    width: 300px;
+    height: 45px;
+    margin-top: 25px;
+}
+
+.Home{
+    margin-left: 700px;
+    margin-top: -350px;
+}
+
+.price-input{
+    width: 350px;
+}
+
+#inputGroupPrepend{
+    margin-left: -100px;
+}
+
+.username-add{
+    margin-left: 100px;
+}
+.display-container{
+    display: flex;
+}
+
+@media screen and (max-width: 1200px) {
+    .Home{
+        margin-left: 600px;
+        margin-top: -350px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .container1{
+        background-color: blueviolet;
+        width: 1050px;
+        height: 150px;
+
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .container1{
+        background-color: blueviolet;
+        width: 1050px;
+    }
+    .Home{
+        margin-left: 200px;
+        margin-top: -350px;
+    }
+    .input1{
+        width: 500px;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    .input1{
+        width: 500px;
+    }
+  }
+
+  @media screen and (max-width: 770px) {
+    .display-container{
+        margin-top: 200px;
+    }
+  }

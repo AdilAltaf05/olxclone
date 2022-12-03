@@ -1,0 +1,45 @@
+.cardcontainer{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.card1{
+    display: flex;
+}
+
+.Card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+    flex-wrap: wrap;
+}
+
+.city-card{
+    color: #002F34A3;
+    margin-top: 10px;
+}
+
+.img-heart{
+    height: 20px;
+    width: 20px;
+    margin-left: 230px;
+    margin-top: -50px;
+}
+
+.img-card{
+    height: 200px;
+}
+
+.Maincard{
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1100px) {
+    .input1{
+        width: 500px;
+    }
+  }

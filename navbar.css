@@ -1,0 +1,134 @@
+body{
+    
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+
+  .Main-container{
+    background-color: white;
+  }
+  .container-1{
+    display: flex;
+    margin-left: 140px;
+  }
+  
+  .heading-1{
+    font-weight: 800;
+    margin-left: 50px;
+    margin-top: 9px;
+    font-size: 15px;
+  }
+  
+  .container-2{
+    display: flex;
+    margin-top: 30px;
+    height: 55px;
+    align-items: center;
+    margin-left: 100px;
+  }
+  
+  
+  .searchbar-1{
+    margin-left: 50px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    width: 370px;
+  }
+  
+  .searchbar-2{
+    width: 500px;
+    margin-left: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+  
+  }
+  
+  .search-icon{
+    height: 58px;
+    padding-top: -68px;
+  margin-left: -15px;
+  width: 50px;
+  }
+  
+  .link-1{
+    color: black;
+    font-size: 23px;
+    margin-left: 40px;
+    font-weight: bold;
+  }
+  
+  .link-1:hover{
+    text-decoration: none;
+  }
+  
+  .button-1{
+    padding: 8px;
+    border-top: 7px solid yellow;
+    border-bottom: 7px solid blue;
+    border-right: 7px solid green;
+    border-left:7px solid red;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 30px;
+    width: 120px;
+  
+  }
+  
+  .buttonlink-1{
+    text-decoration: underline;
+    color: black;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  
+  
+  .button-1:hover{
+    padding: 8px;
+    border-top: 7px solid blue;
+    border-bottom: 7px solid yellow;
+    border-right: 7px solid red;
+    border-left:7px solid green;
+    transition: 0.5s;
+    background-color: aqua;
+  }
+  
+  .container-3{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .container-3 h5{
+    margin-right: 15px;
+    margin-top: 30px;
+    font-size: 15px;
+  }
+  
+  .container-3 h3{
+    margin-top: 22px;
+  }
+  
+  .container-3 h5:hover{
+    color: #0039e6;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .container-4{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .Head-1{
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+  }
+
+  .last-heading{
+    margin-left: 160px;
+    margin-top: 30px;
+  }
